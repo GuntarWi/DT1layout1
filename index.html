@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+<div class="switch-button">
+    <p class="verssion"> version 0.1.0</p>
+    <p class="mode-btn">Bet Spread </p>
+    <div class="form-check form-switch">
+        <input class="form-check-input mode-switch" type="checkbox" id="flexSwitchCheckDefault">
+
+      </div>
+      <p class="mode-btn">roulette layout</p>
+</div>
+  
+<div class="switch-button">
+    <p class="mode-btn">Native</p>
+    <div class="form-check form-switch">
+        <input class="form-check-input  mode-switch-2" type="checkbox" id="flexSwitchCheckDefault">
+
+      </div>
+      <p class="mode-btn">Euro</p>
+</div>
+
+    
+
+      <!--  <img class="roulette"src="1.png" alt="">  <h1 class="roundID">Game Round ID</h1>-->
+        <div class="container show " id="imgItcontainerem">
+            <h2 class="idround" contenteditable="true" >Game Round: ENTER ROUND ID straight up's</h2>
+            <div class="roulette-container ">
+                <canvas id="myChart" class="neww" ></canvas>
+            </div>
+        </div>
+
+
+
+        <div class="container-2 hide" id="imgItcontainerem2">
+            <h2 class="idround" contenteditable="true" >Game Round: ENTER ROUND ID straight up's</h2>
+            <div class="layout-container">
+                <canvas id="RouletteLayout" class="layout" ></canvas>
+            </div>
+        </div>
+                                                          
+                                                                      <div class="container-3">
+                
+                <div class="control-btn">
+                    <button type="button" onclick="changeToImg()" class="btn btn-dark">Add Example</button>
+                    <button type="button" onclick="resetTheImageArea()" class="btn btn-dark">Restart</button>
+                    <button type="button" onclick="changeToImg2()" class="btn btn-dark"><a id="download" class=" " role="button" aria-disabled="true">Generate</a></button>
+                </div>
+                <div class="game-examples" id="game-examples">
+                    <div id="sreenshot" class="card-body sreenshot">
+                    
+  
+                    </div>
+                </div>
+            </div>
+                                                          
+                                                
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.1/chart.min.js"></script>
+<script type="text/javascript" src="js/tableau-extensions-1.0.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script type="text/javascript" src="js/application.js"></script>
+
+</html>
